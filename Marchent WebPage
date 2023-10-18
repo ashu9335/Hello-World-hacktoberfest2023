@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Merchant Website</title>
+</head>
+<body>
+    <header>
+        <h1>My Merchant Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="products">
+        <h2>Products</h2>
+        <div class="product">
+            <img src="product1.jpg" alt="Product 1">
+            <h3>Product 1</h3>
+            <p>Description of Product 1.</p>
+            <span>$19.99</span>
+        </div>
+        <!-- Add more products here -->
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a merchant selling high-quality products.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@merchant.com</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 My Merchant Website</p>
+    </footer>
+</body>
+</html>
